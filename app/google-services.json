@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "546148052069",
+    "project_id": "resellhq-3c821",
+    "storage_bucket": "resellhq-3c821.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546148052069:android:a7c112da837269bd952a8c",
+        "android_client_info": {
+          "package_name": "com.heady.resellhq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "546148052069-db5u6acg07hnrcl5hujhnf32aajdblpf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBd73fDng-FEN2egpms2b2TA3PdJhVqqcE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "546148052069-db5u6acg07hnrcl5hujhnf32aajdblpf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
