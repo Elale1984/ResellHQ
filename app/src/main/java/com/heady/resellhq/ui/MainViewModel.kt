@@ -1,4 +1,4 @@
-package com.heady.resellhq.ui.theme
+package com.heady.resellhq.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
