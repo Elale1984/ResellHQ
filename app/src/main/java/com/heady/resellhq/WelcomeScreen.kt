@@ -3,9 +3,7 @@ package com.heady.resellhq
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Surface
-import androidx.compose.material.Text
+import androidx.compose.material.*
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -30,6 +28,8 @@ fun SignUp (
             
             WelcomeNewUserText()
             LogoName()
+            Spacer(modifier = Modifier.size(65.dp))
+            ButtonBar()
 
         }
     }
@@ -41,7 +41,7 @@ fun WelcomeNewUserText() {
     Text( text = "WELCOME TO",
         color = Color.White,
         fontSize = 50.sp,
-        modifier = Modifier.padding(top = 60.dp),
+        modifier = Modifier.padding(top = 220.dp),
         fontFamily = FontFamily.SansSerif,
         fontStyle = FontStyle.Italic
     )
@@ -61,6 +61,40 @@ fun LogoName() {
             )
         }
     )
+}
 
+@Composable
+fun ButtonBar() {
+    Row(modifier = Modifier.padding(15.dp)) {
 
+        Button(
+            onClick = { /* ... */ },
+            contentPadding = PaddingValues(
+                start = 20.dp,
+                top = 12.dp,
+                end = 20.dp,
+                bottom = 12.dp
+            )
+        ) {
+
+            Spacer(Modifier.size(ButtonDefaults.IconSpacing))
+            Text("Sign Up")
+        }
+
+        Spacer(Modifier.size(30.dp))
+
+        Button(
+            onClick = { /* ... */ },
+            contentPadding = PaddingValues(
+                start = 20.dp,
+                top = 12.dp,
+                end = 20.dp,
+                bottom = 12.dp
+            )
+        ) {
+
+            Spacer(Modifier.size(ButtonDefaults.IconSpacing))
+            Text("Sign In")
+        }
+    }   
 }
